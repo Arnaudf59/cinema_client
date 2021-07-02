@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "60df0881587bcb2a4022dcaf"
+  },
+  "numSalle": {
+    "$oid": "60d499c4e8ca1344b4b74ba0"
+  },
+  "date": {
+    "$date": "2021-07-29T22:00:00Z"
+  },
+  "cinema": {
+    "$oid": "60df0257c65d1852b898c2ce"
+  },
+  "film": {
+    "$oid": "60d49bc2bd55cd17dc392708"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df1431ff493303a0011464"
+  },
+  "numSalle": {
+    "$oid": "60d499c4e8ca1344b4b74ba0"
+  },
+  "date": {
+    "$date": "2021-07-29T22:00:00Z"
+  },
+  "cinema": {
+    "$oid": "60df0257c65d1852b898c2ce"
+  },
+  "film": {
+    "$oid": "60d49bedbd55cd17dc39270a"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df26ff09c4112850980ba7"
+  },
+  "numSalle": {
+    "$oid": "60d499c4e8ca1344b4b74ba0"
+  },
+  "date": {
+    "$date": "2021-07-28T22:00:00Z"
+  },
+  "cinema": {
+    "$oid": "60df0257c65d1852b898c2ce"
+  },
+  "film": {
+    "$oid": "60d49bc2bd55cd17dc392708"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "60d499bce8ca1344b4b74b9e"
+  },
+  "numero": 2,
+  "nbPlaces": 190,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d499c4e8ca1344b4b74ba0"
+  },
+  "numero": 3,
+  "nbPlaces": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d499cbe8ca1344b4b74ba2"
+  },
+  "numero": 4,
+  "nbPlaces": 148,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d499d3e8ca1344b4b74ba4"
+  },
+  "numero": 5,
+  "nbPlaces": 150,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60dece173f3878531c10d64a"
+  },
+  "numero": 6,
+  "nbPlaces": 150,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60dece1c3f3878531c10d64c"
+  },
+  "numero": 7,
+  "nbPlaces": 150,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60dece1f3f3878531c10d64e"
+  },
+  "numero": 8,
+  "nbPlaces": 150,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60dee06d3f3878531c10d688"
+  },
+  "numero": 8,
+  "nbPlaces": 150,
+  "__v": 0
+}]

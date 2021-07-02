@@ -1,0 +1,14 @@
+<h1 *ngIf="cinema">{{cinema.nom}}</h1>
+<div class="pos">
+    <div *ngFor="let film of films">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="../../../assets/img/téléchargement.svg" alt="Card image cap">
+            <div class="card-body">
+            <h5 class="card-title">{{film.nom}}</h5>
+            <p class="card-text">{{film.duree}} min</p>
+            <a routerLink="/cinema/{{cinema._id}}/film/{{film._id}}/seances" class="btn btn-primary">Séances</a>
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

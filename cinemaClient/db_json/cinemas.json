@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "60df0257c65d1852b898c2ce"
+  },
+  "salles": [
+    {
+      "$oid": "60d499bce8ca1344b4b74b9e"
+    },
+    {
+      "$oid": "60d499cbe8ca1344b4b74ba2"
+    },
+    {
+      "$oid": "60d499d3e8ca1344b4b74ba4"
+    }
+  ],
+  "nom": "Gaumont",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60df06f4cd309029bca2fcd4"
+  },
+  "salles": [
+    {
+      "$oid": "60d499c4e8ca1344b4b74ba0"
+    },
+    {
+      "$oid": "60dece173f3878531c10d64a"
+    },
+    {
+      "$oid": "60dece1c3f3878531c10d64c"
+    },
+    {
+      "$oid": "60dece1f3f3878531c10d64e"
+    },
+    {
+      "$oid": "60dee06d3f3878531c10d688"
+    }
+  ],
+  "nom": "Kinepolis",
+  "__v": 0
+}]
