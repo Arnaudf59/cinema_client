@@ -1,3 +1,14 @@
+.position-titre{
+    text-align: center;
+    color: #d04040;
+    margin-top: 15px;
+    font-size: 70px;
+    font-family: Oswald;
+}
+.margin{
+    margin-left:5%;
+}
+
 .pos{
     display:flex;
 }

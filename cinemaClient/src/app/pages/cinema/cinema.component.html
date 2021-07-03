@@ -1,5 +1,10 @@
-<h1>Choisissez un cinéma:</h1>
-<div *ngFor="let cinema of cinemas">
-    <app-list-cinema [cinema]="cinema"></app-list-cinema>
+<div class="head">
+    <h1 class="display-3 center">Choisissez Votre Kinepolis:</h1>
+</div>
+<div class="div-cinema">
+    <img class="logo" src="../../../assets/img/logo.png" alt="Kinepolys">
+    <div *ngFor="let cinema of cinemas">
+        <app-list-cinema [cinema]="cinema"></app-list-cinema>
+    </div>
 </div>
 <router-outlet></router-outlet>

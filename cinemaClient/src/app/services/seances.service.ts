@@ -18,4 +18,8 @@ export class SeancesService {
   findFilmByCinema = (cinemaId: String) => {
     return this.http.get<Film[]>(`${environment.apiUrl}/seances/film/cinema/${cinemaId}`);
   }
+
+  findByFilmAndCinema = (cinemaId: String, filmId : String) => {
+    return this.http.get<Seance[]>(`${environment.apiUrl}/seances/cinema/${cinemaId}/film/${filmId}`);
+  }
 }

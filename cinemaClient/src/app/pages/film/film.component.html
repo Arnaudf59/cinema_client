@@ -1,6 +1,7 @@
-<h1 *ngIf="cinema">{{cinema.nom}}</h1>
+<app-navbar></app-navbar>
+<h1 class="position-titre" *ngIf="cinema">{{cinema.nom}}</h1>
 <div class="pos">
-    <div *ngFor="let film of films">
+    <div class="col-2 margin" *ngFor="let film of films">
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="../../../assets/img/téléchargement.svg" alt="Card image cap">
             <div class="card-body">

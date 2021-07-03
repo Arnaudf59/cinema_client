@@ -8,7 +8,7 @@ import { SeanceComponent } from './pages/seance/seance.component';
 const routes: Routes = [
   { path:"cinema", component : CinemaComponent},
   { path:"cinema/:id/film", component : FilmComponent},
-  { path:"cinema/:id/film/:id/seances", component : SeanceComponent},
+  { path:"cinema/:id/film/:idfilm/seances", component : SeanceComponent},
   { path: "**", component : NotFoundComponent}
 ];
 

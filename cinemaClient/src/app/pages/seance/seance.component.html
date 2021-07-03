@@ -1,1 +1,26 @@
-<p>seance works!</p>
+<app-navbar></app-navbar>
+<h1 class="position-titre" *ngIf="cinema">{{cinema.nom}}</h1>
+<div class="div-affichage">
+    <div class="entete">
+        <div class="row">
+            <div class="col1"><span class="titre-col gras">Film</span></div>
+            <div class="col2"><span class="titre-col gras">Date</span></div>
+            <div class="col3"><span class="titre-col position-titre-entete gras">Reserver</span></div>
+        </div>
+    </div>
+    <div class="list-seance" *ngFor="let seance of seances">
+        <div class="row position-seance">
+            <div class="div-info-style col1 text" *ngIf="film">
+                {{film.nom}}
+            </div>
+            <div class="div-info-style col2 text">
+                {{seance.date  | date:'short'}} 
+            </div>
+            <div class="div-info-style col3 text">
+                <button class="reserver-button" (click)='reserve("60df0881587bcb2a4022dcaf")'>
+                    Réserver
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
