@@ -11,6 +11,10 @@ export class SeancesService {
 
   constructor(private http: HttpClient) { }
 
+  findById = (seanceId: String) =>{
+    return this.http.get<Seance>(`${environment.apiUrl}/seances/${seanceId}`);
+  }
+
   findByCinema = (cinemaId: String) => {
     return this.http.get<Seance[]>(`${environment.apiUrl}/seances/cinema/${cinemaId}`);
   }

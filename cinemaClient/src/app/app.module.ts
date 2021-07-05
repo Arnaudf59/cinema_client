@@ -10,6 +10,7 @@ import { ListCinemaComponent } from './components/list-cinema/list-cinema.compon
 import { FilmComponent } from './pages/film/film.component';
 import { SeanceComponent } from './pages/seance/seance.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { TicketComponent } from './pages/ticket/ticket.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ListCinemaComponent,
     FilmComponent,
     SeanceComponent,
-    NavbarComponent
+    NavbarComponent,
+    TicketComponent
   ],
   imports: [
     BrowserModule,
